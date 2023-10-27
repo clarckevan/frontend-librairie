@@ -11,7 +11,7 @@ formulaire.addEventListener("submit", event => {
     formData.append("email", email.value)
     formData.append("password", password.value)
 
-    fetch('http://loclahost:8080/api/user/login',{
+    fetch('https://librairie-ce-book.onrender.com/api/user/login',{
         method:"POST",
         body: new URLSearchParams(formData)
     })
@@ -22,7 +22,7 @@ formulaire.addEventListener("submit", event => {
         if(succes.statut == true){
             alert("bien connecter")
 
-            window.location.href = "./../index.html"
+            window.location.href = "./index.html"
         }
         console.log(succes);
     })

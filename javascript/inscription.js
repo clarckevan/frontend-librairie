@@ -13,14 +13,14 @@ formulaire.addEventListener('submit',(e)=>{
   formData.append("email", email.value)
   formData.append("password", password.value)
 
-  fetch('http://localhost:8080/api/user',{
+  fetch('https://librairie-ce-book.onrender.com/api/user',{
     method: "POST",
     body: new URLSearchParams(formData)
   }).then(res => res.json())
   .then(succes =>{
     if(succes.statut){
       alert("inscrit")
-      window.location.href='./../corporates/connexion.html'
+      window.location.href='./connexion.html'
   }
   })
 })
