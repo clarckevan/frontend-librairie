@@ -22,7 +22,7 @@ formulaire.addEventListener("submit", event => {
         if(succes.statut == true){
             alert("bien connecter")
 
-            window.location.href = "./index.html"
+            window.location.href = "./../index.html"
         }
         console.log(succes);
     })
