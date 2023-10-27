@@ -7,7 +7,7 @@ formulaire.addEventListener('submit',(e)=>{
   let email = e.target.email
   let password = e.target.password
 
-  const formData = new FormData
+  const formData = new FormData()
 
   formData.append("nom", nom.value)
   formData.append("email", email.value)
