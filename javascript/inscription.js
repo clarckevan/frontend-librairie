@@ -21,6 +21,6 @@ formulaire.addEventListener('submit',(e)=>{
     if(succes.statut){
       alert("inscrit")
       window.location.href='./connexion.html'
-  }
+    }
   })
 })
