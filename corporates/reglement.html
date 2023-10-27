@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reglement.css">
+</head>
+<body>
+  <form class="carte-credit">
+    <div class="form-header">
+      <h4 class="title">Carte de credit detail</h4>
+    </div>
+    <div class="form-body">
+      <input type="text" class="numero-carte" placeholder="numero de carte">
+      <div class="date-field">
+        <div class="mois">
+          <select name="mois" placeholder="choisir le mois de l'expiration">
+            <option value="january">Janvier</option>
+            <option value="february">Fevrier</option>
+            <option value="march">Mars</option>
+            <option value="april">Avril</option>
+            <option value="may">Mai</option>
+            <option value="june">Juin</option>
+            <option value="july">Juillet</option>
+            <option value="august">Aout</option>
+            <option value="september">Septembre</option>
+            <option value="october">Octobre</option>
+            <option value="november">Novembre</option>
+            <option value="december">Decembre</option>
+          </select>
+        </div>
+        <div class="annees">
+          <select name="annees" placeholder="choisir la date d'expiration">
+            <option value="2016">2023</option>
+            <option value="2017">2024</option>
+            <option value="2018">2025</option>
+            <option value="2019">2025</option>
+            <option value="2020">2027</option>
+            <option value="2021">2028</option>
+          </select>
+        </div>
+      </div>
+      <div class="card-verification">
+        <div class="cvv-input">
+          <input type="text" placeholder="CVV">
+        </div>
+        <div class="cvv-details">
+          <p> 3 où 4 chiffres que <br>l'on retrouve habituellement <br> sur la bande de signature</p>
+        </div>
+      </div>
+      <button type="submit" class="proceed-btn"><a href="#">Proceder</a></button>
+    </div>
+  </form>
+</body>
+</html>
+<script>
+  document.querySelector("button[type=submit]").addEventListener("click", ()=>{window.location.href = "./articles.html"})
+</script>

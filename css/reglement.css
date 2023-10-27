@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif,
+    sans-serif;
+    margin: 0;
+    background-color:white;
+}
+.carte-credit {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #24445C;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
+.numero-carte,
+.cvv-input input,
+.mois select,
+.annees select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.numero-carte,
+.mois select,
+.annees select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.numero-carte,
+.cvv-details,
+.cvv-input input,
+.mois select,
+.annees select {
+    color: #24445C;
+}
+.numero-carte {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+.mois select,
+.annees select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.mois select {
+    float: left;
+}
+
+.annees select {
+    float: right;
+}
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.cvv-details p {
+    margin-top: 6px;
+}
+
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+}
+
+.proceed-btn a {
+    color: #24445C;
+}

@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  body{
+    width: 99%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  form{
+    width: 500px;
+    height: 450px;
+    background-color:#24445C;
+    display: grid;
+    margin-top: 50px;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    color: white;
+  }
+  label{
+    color: white;
+    position: relative;
+    top: 10px;
+  }
+  form h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    margin-top: 20px;
+  }
+  

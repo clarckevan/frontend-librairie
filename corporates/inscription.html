@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./../css/inscription.css" rel="stylesheet">
+
+</head>
+<body>
+  <div>
+    <form>
+      <p class="cription"> INSCRIPTION </p>
+     <label for="fname"> Nom et Prenom</label>
+     <input class="inscr" type="text" id="fname" name="firstname" placeholder=" Nom d’utilisateur ">
+     <label for="lname">Mot de passe</label>
+     <input class="inscr"  type="password" name="password" placeholder="Mot de passe">
+     <input class="inscr"  type="password" id="cpassword" name="password" placeholder="comfirmer Mot de passe">
+     <label for="lname" >E-mail</label>
+     <input class="inscr"  type="email" id="email" name="email" placeholder="E-mail">
+     <button>Enregistrer</button>
+    </form>
+    <div id="message" class="error-message"></div>
+ </div>
+</body>
+<script  defer src="./../javascript/inscription.js"></script>
+</html>
